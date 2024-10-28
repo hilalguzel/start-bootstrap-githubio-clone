@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, -apple-system, system-ui, sans-serif;
+}
+
+.navbar {
+    background-color: #212529;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sign-up-btn {
+    background-color: #0D6EFD;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+.sign-up-btn:hover {
+    background-color: #0B5ED7;
+}
+
+.hero{
+    background-image: url('https://pixabay.com/tr/photos/search/deniz%20manzaras%C4%B1/');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+.hero::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.hero-content {
+    position: relative;
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.email-signup {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.email-signup input {
+    width: 400px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.submit-btn {
+    background-color: #0D6EFD;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.features {
+    background-color: #212529;
+    padding: 100px 20px;
+}
+
+.features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature-item {
+    flex: 1;
+    text-align: center;
+    color: white;
+    max-width: 300px;
+}
+
+.feature-icon {
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 40px;
+    color: #0D6EFD;
+}
+
+.feature-item h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+
+.showcase {
+    background-color: white;
+}
+
+.showcase-item {
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #f8f9fa;
+}
+
+.showcase-item:nth-child(even) {
+    background-color: white;
+}
+
+.showcase-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.showcase-text {
+    flex: 1;
+    padding: 0 50px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.showcase-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #212529;
+}
+
+.showcase-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+.showcase-image {
+    flex: 1;
+    padding: 0 50px;
+}
+
+.responsive-image, .code-image, .customize-image {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.responsive-image {
+    background-image: url('telefon.jpg'); 
+}
+
+.code-image {
+    background-image: url('kod.jpg'); 
+}
+
+.customize-image {
+    background-image: url('laptop.jpg'); 
+}
+
+
+.testimonials {
+    padding: 100px 20px;
+    background-color: #212529;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.testimonial-item {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.profile-image {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-item h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.testimonial-item p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.cta {
+    padding: 100px 20px;
+    background-image: url('deniz.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cta-content {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.signup-form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.signup-form input {
+    width: 400px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-form .submit-btn {
+    background-color: #0D6EFD;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #212529;
+    padding: 50px 20px;
+    color: white;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.footer-copyright p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.social-links i {
+    color: #0D6EFD;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.social-links i:hover{
+   background-colors:  #0B5ED7;
+  
+}
