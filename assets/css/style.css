@@ -6,8 +6,8 @@
 }
 
 .navbar {
-    background-color: #212529;
-    padding: 10px 50px;
+    background-color: #1e2023;
+    padding: 10px 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,7 @@
 
 .hero-content h1{
     font-size: 45px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     line-height: 1.2;
 }
 
@@ -59,10 +59,10 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 0 20px;
+    padding: 0 15px;
 }
 .email-signup input{
-    width: 480px;
+    width: 500px;
     padding: 25px;
     border: none;
     border-radius: 10px;
@@ -81,7 +81,7 @@
 
 .features {
     background-color: #1e2124;
-    padding: 100px 20px;
+    padding: 120px 20px;
 }
 
 .features-container {
@@ -96,7 +96,7 @@
     flex: 1;
     text-align: center;
     color: white;
-    max-width: 300px;
+    max-width: 700px;
 }
 
 .feature-icon {
@@ -104,7 +104,7 @@
 }
 
 .icon {
-    font-size: 40px;
+    font-size: 70px;
     color: #0D6EFD;
 }
 
@@ -184,8 +184,8 @@
 }
 
 .testimonials {
-    padding: 100px 20px;
-    background-color: #212529;
+    padding: 110px 20px;
+    background-color: #1e2023;
     text-align: center;
 }
 
@@ -266,7 +266,7 @@
 }
 
 .signup-form input {
-    width: 480px;
+    width: 500px;
     padding: 25px;
     border: none;
     border-radius: 10px;
@@ -292,11 +292,11 @@ footer {
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
-    display: inline-block;
-    justify-content: space-between;
+    display:flex;
+    justify-content: center;
     align-items: center;
+    gap: 150px;
 }
-
 
 .footer-links ul {
     list-style-type: none; 
@@ -320,14 +320,10 @@ footer {
     text-decoration: underline;
     font-size: 16px;
 }
-
-
 .footer-copyright p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     margin: 0;
-    margin-top: 10px;
-    
 }
 
 .social-links ul {
