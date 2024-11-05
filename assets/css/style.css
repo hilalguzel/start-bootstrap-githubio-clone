@@ -287,6 +287,7 @@ footer {
     background-color: white;
     padding: 50px 20px;
     color: black;
+    
 }
 
 .footer-content {
@@ -308,11 +309,9 @@ footer {
     display: inline-block; 
     margin-right: 20px; 
 }
-.footer-links ul li:not(:last-child)::after {
-    content: "•";
-    font-size: 15px;
-    color: black;
-    margin-left: 20px;
+
+.footer-links ul .dot{
+    font-size: 20px;
 }
 
 .footer-links ul li a {
@@ -320,7 +319,7 @@ footer {
     text-decoration: underline;
     font-size: 16px;
 }
-.footer-copyright p {
+.footer-copyright{
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     margin: 0;
